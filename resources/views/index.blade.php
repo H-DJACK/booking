@@ -7,7 +7,7 @@
                 style="background-image: url('img/librarie.jpg'); height: 90vh;  background-position: center;
                 background-size: cover;">
                 <div class="flex items-center justify-center flex-col " style="width: 60vw; margin: 30vh auto;" >
-                    <h1 class="text-white text-7xl font-bold">Telecharger des Miliers de livre</h1>
+                    <h1 class="text-white font-bold"  style="font-size: 70px" >Telecharger des Miliers de livre</h1>
                     <p class="text-white text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam iusto aliquam odit quidem perspiciatis, nemo harum culpa
                          soluta praesentium reprehenderit minus! Aspernatur similique rerum quo sit vel, accusantium iste sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam iusto aliquam odit quidem perspiciatis, nemo harum culpa
                          soluta praesentium reprehenderit minus! Aspernatur similique rerum quo sit vel, accusantium iste sapiente.</p>
@@ -20,7 +20,7 @@
             style="background-image: url('img/events.png'); height: 90vh; background-position: center;
             background-size: cover;">
                     <div class="flex items-center justify-center flex-col" style="width: 60vw; margin: 30vh auto;" >
-                        <h1 class="text-white text-7xl text-center font-bold">Participer à des évenements autour du livre</h1>
+                        <h1 class="text-white text-center font-bold" style="font-size: 70px">Participer à des évenements autour du livre</h1>
                         <p class="text-white text-lg ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                             Nam iusto aliquam odit quidem perspiciatis, nemo harum culpa
                             soluta praesentium reprehenderit minus! Aspernatur similique rerum quo sit vel, 
@@ -37,7 +37,7 @@
                 style="background-image: url('img/association.jpg'); height: 90vh; background-position: center;
                 background-size: cover;">
                         <div class="flex items-center justify-center flex-col" style="width: 60vw; margin: 30vh auto;">
-                            <h1 class="text-white text-7xl font-bold">Rejoindre notre association</h1>
+                            <h1 class="text-white font-bold" style="font-size: 70px">Rejoindre notre association</h1>
                             <p class="text-white text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                 Nam iusto aliquam odit quidem perspiciatis, nemo harum culpa
                                 soluta praesentium reprehenderit minus! Aspernatur similique rerum quo sit vel, 
@@ -54,7 +54,7 @@
 
         <div class="grid grid-cols-2 mx-10 py-10 mt-4 padding-about ">
             <div class="flex flex-col justify-center items-center ">
-                <h1 class="text-5xl text-center py-8 mx-auto text-[#000050] font-bold">Take care about your book</h1>
+                <h1 class="text-center py-8 mx-auto text-[#000050] font-bold"  style="font-size: 50px">Take care about your book</h1>
                 <p class="text-slate-500 text-justify text-lg w-90">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Repellendus omnis amet blanditiis hic ratione corporis 
@@ -71,7 +71,7 @@
         </div>-
 
         <section class="bg-slate-50">
-            <h1 class="text-5xl text-center py-8 mx-auto text-[#000050] font-bold">Nos Caregories</h1>
+            <h1 class="text-center py-8 mx-auto text-[#000050] font-bold" style="font-size: 50px">Nos Caregories</h1>
             <div class="grid grid-cols-6 gap-10 padding py-8 ">
                 <button class="bg-yellow-500 hover:bg-yellow-600 text-xl text-white p-2 rounded shadow-md mt-4">Recommended</button>
                 <button class="bg-yellow-500 hover:bg-yellow-600 text-xl text-white p-2 rounded shadow-md mt-4">Motivation</button>
@@ -193,7 +193,7 @@
      
 
     <section  class=" py-8 padding mt-4" >
-        <h1 class="text-5xl text-center py-8 mx-auto text-[#000050] font-bold">Nouveau événement</h1>
+        <h1 class="text-center py-8 mx-auto text-[#000050] font-bold" style="font-size: 50px">Nouveau événement</h1>
         <div class="grid grid-cols-4 gap-8 ">
             <div class="flex flex-col justify-center items-center rounded-t-lg bg-white max-w-sm"  style="background-image: url('img/events.png'); height: 30vh;  background-position: center;
                 background-size: cover; position: relative; z-index: 1;">
@@ -229,7 +229,7 @@
             <div class="flex flex-col justify-center items-center rounded-t-lg bg-white max-w-sm"  style="background-image: url('img/events.png'); height: 30vh;  background-position: center;
                 background-size: cover; position: relative; z-index: 1;">
                 <p class="text-white text-4xl font-medium mb-2"  style="position: abolute; z-index: 2;">Dedicace speciale</p>
-                <button class="bg-blue-500  hover:bg-blue-700 text-white p-2 rounded shadow-md mt-4">Suivre l evenement</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded shadow-md mt-4">Suivre l evenement</button>
             </div>
 
             <div class="flex flex-col justify-center items-center rounded-t-lg bg-white max-w-sm"  style="background-image: url('img/association.jpg'); height: 30vh;  background-position: center;
@@ -253,7 +253,7 @@
        
 
     <section class="py-4 my-10 ml-8 mr-8 py-8 padding">
-        <h2 class="text-5xl mx-auto py-8 text-[#000050] font-bold">A paraitre</h2>
+        <h2 class="mx-auto py-8 text-[#000050] font-bold" style="font-size: 50px">A paraitre</h2>
         <div class="grid grid-cols-7 gap-4">
             <div class="justify-center grid items-start shadown-lg  bg-gray-100 rounded" >
                 <a href="#">
