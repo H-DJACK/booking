@@ -1,44 +1,46 @@
 @extends('layouts.app')
 
 @section("content")
-        <div class="slider_brand" style="position:relative; z-index: -1;">
+
+      <div class="slider_brand" style="position:relative; z-index: -1;">
             <div class="flex w-100 mx-auto  items-center justify-center " 
-        style="background-image: url('img/brand1.png'); height: 90vh;  background-position: center;
-        background-size: cover;">
-                <div class="flex items-center justify-center flex-col " >
-                    <h1 class="text-white">TO SUCCESSED YOU MUST READ</h1>
-                    <p class="text-gray-500 text-lg">Not sure what next to read explore your catolog of public 
-                        domain books with our editor or search for new book.</p>
+                style="background-image: url('img/librarie.jpg'); height: 90vh;  background-position: center;
+                background-size: cover;">
+                <div class="flex items-center justify-center flex-col " style="width: 80vw; margin: 0 auto;" >
+                    <h1 class="text-white text-7xl">Telecharger des Miliers de livre</h1>
+                    <p class="text-gray-500 text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam iusto aliquam odit quidem perspiciatis, nemo harum culpa
+                         soluta praesentium reprehenderit minus! Aspernatur similique rerum quo sit vel, accusantium iste sapiente.</p>
                     <div>
-                        <button class="bg-yellow-500 text-white p-2 rounded shadow-md mt-4">Explore Now</button>
-                        <input type="text" class="outline-0 p-2 border-yellow-500 rounded" placeholder="Search for book">
+                        <button class="bg-yellow-500 text-white p-2 rounded shadow-md mt-4">Explorer Maintenant</button>
                     </div>
-                    <div class="slick-slider-nav"></div>
-                    <div class="slick-slider-dots"></div>
                 </div>
             </div>
-            <div class="grid py-10 w-100 mx-auto  items-center justify-items-center " 
-            style="background-image: url('img/brand2.png'); height: 90vh;">
-                    <div class="flex items-center justify-center flex-col" >
-                        <h1 class="text-white brand">TO SUCCESSED YOU MUST READ</h1>
-                        <p class="text-gray-500 text-lg">Not sure what next to read explore your catolog of public 
-                            domain books with our editor or search for new book.</p>
+            <div class="grid pb-10 w-100 mx-auto  items-center justify-items-center " 
+            style="background-image: url('img/events.jpg'); height: 90vh; background-position: center;
+            background-size: cover;">
+                    <div class="flex items-center justify-center flex-col" style="width: 80vw; margin: 0 auto;" >
+                        <h1 class="text-white text-7xl text-center">Participer à des évenements autour du livre</h1>
+                        <p class="text-gray-500 text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Nam iusto aliquam odit quidem perspiciatis, nemo harum culpa
+                            soluta praesentium reprehenderit minus! Aspernatur similique rerum quo sit vel, 
+                            accusantium iste sapiente.</p>
                         <div>
-                            <button class="bg-yellow-500 text-white p-2 rounded shadow-md mt-4">Explore Now</button>
-                            <input type="text" class="outline-0 p-2 border-yellow-500 rounded" placeholder="Search for book">
+                            <button class="bg-yellow-500 text-white p-2 rounded shadow-md mt-4">Participer Maintenant</button>
                         </div>
                     </div>
                 </div>
             
-                <div class="grid py-10 w-100 mx-auto  items-center justify-items-center " 
-                style="background-image: url('img/brand3.png'); height: 90vh;">
-                        <div class="flex items-center justify-center flex-col">
-                            <h1 class="text-white brand">TO SUCCESSED YOU MUST READ</h1>
-                            <p class="text-gray-500 text-lg">Not sure what next to read explore your catolog of public 
-                                domain books with our editor or search for new book.</p>
+                <div class="grid pb-10 w-100 mx-auto  items-center justify-items-center " 
+                style="background-image: url('img/association.jpg'); height: 90vh; background-position: center;
+                background-size: cover;">
+                        <div class="flex items-center justify-center flex-col" style="width: 80vw; margin: 0 auto;">
+                            <h1 class="text-white text-7xl">Rejoindre notre association</h1>
+                            <p class="text-gray-500 text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Nam iusto aliquam odit quidem perspiciatis, nemo harum culpa
+                                soluta praesentium reprehenderit minus! Aspernatur similique rerum quo sit vel, 
+                                accusantium iste sapiente.</p>
                             <div>
-                                <button class="bg-yellow-500 text-white p-2 rounded shadow-md mt-4">Explore Now</button>
-                                <input type="text" class="outline-0 p-2 border-yellow-500 rounded" placeholder="Search for book">
+                                <button class="bg-yellow-500 text-white p-2 rounded shadow-md mt-4">Nous rejoindre</button>
                             </div>
                         </div>
                     </div>
@@ -59,12 +61,12 @@
                 </p>
             </div>
             <div class="mx-auto">
-                <img src="img/livre.png" alt="brand image" />
+                <img src="img/about.jpg" alt="brand image" />
             </div>
-        </div>
+        </div>-
 
         <section class="bg-slate-50">
-            <h1 class="text-4xl text-center py-8 mx-auto text-[#000050] font-bold">Our Categories</h1>
+            <h1 class="text-4xl text-center py-8 mx-auto text-[#000050] font-bold">Nos Caregories</h1>
             <div class="grid grid-cols-6 gap-10 padding py-8 ">
                 <button class="bg-yellow-500 hover:bg-yellow-600 text-white p-2 rounded shadow-md mt-4">Recommended</button>
                 <button class="bg-yellow-500 hover:bg-yellow-600 text-white p-2 rounded shadow-md mt-4">Motivation</button>
@@ -180,13 +182,13 @@
                 </div>
             </div>
         <div class="mx-auto py-10 flex items-center justify-center">
-            <button class="bg-yellow-500  hover:bg-yellow-600 text-white p-2 rounded shadow-md mt-4">More Category</button>
+            <button class="bg-yellow-500  hover:bg-yellow-600 text-white p-2 rounded shadow-md mt-4">Voir plus</button>
         </div>
     </section>
      
 
     <section  class="bg-gray-800 py-8 padding mt-4">
-        <h1 class="text-4xl mx-auto py-8 text-gray-100 font-bold">New Event</h1>
+        <h1 class="text-4xl mx-auto py-8 text-gray-100 font-bold">Nouveau événement</h1>
         <div class="grid grid-cols-4 gap-8 ">
             <div class="flex flex-col justify-center items-center bg-neutral-100 p-10 rounded">
                 <img src="img/logo1.png" width="80" height="130" alt="logo" />
@@ -222,14 +224,14 @@
             </div>
         </div>
         <div class="mx-auto py-10 flex items-center justify-center">
-            <button class="bg-yellow-500 text-white p-2 rounded shadow-md mt-4">More Event</button>
+            <button class="bg-yellow-500 text-white p-2 rounded shadow-md mt-4">Plus d'événement</button>
         </div>
     </section>
        
 
     <section class="grid grid-cols-5 py-4 my-10 gap-6 ml-8 mr-8 py-8 padding">
-        <h2 class="text-4xl mx-auto py-8 text-[#000050] font-bold">Comming Soon</h2>
-        <div class="comming-slider">
+        <h2 class="text-4xl mx-auto py-8 text-[#000050] font-bold">A paraitre</h2>
+        <div>
             <div class="justify-center grid items-start shadown-lg  bg-gray-100 rounded" >
                 <a href="#">
                 <img src="img/1.jpg" class="mx-auto w-full h-60 rounded-t-lg " width="100" height="200" alt="kffl">

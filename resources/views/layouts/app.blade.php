@@ -6,7 +6,7 @@
 
     <title>{{ config('app.name', 'Fenix') }}</title>
 
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite(['resources/css/app.css'])
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -78,7 +78,8 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="grid grid-cols-4 w-full bg">
                 <div class="flex mx-auto items-center">
-                    <img src="img/logo2.png" width="80" height="130" alt="logo" />
+                    <img src="img/logo.png" width="80" height="130" alt="logo" />
+                    <small class="text-xl">Fénix sarl</small>
                 </div>
                 <div class="flex col-span-2 items-center justify-items-center">
                     <ul class="flex mx-auto text-slate-500 flex-row space-x-10">
@@ -267,7 +268,7 @@
                     <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Ab impedit error id quidem nostrum tempora aliquid dignissimos commodi velit? 
                         Repellendus non at unde ratione magni quasi sed pariatur dignissimos porro.</p>
-                    <img src="img/logo1.png" width="80" height="130" alt="logo" />
+                    <img src="img/logo.png" width="80" height="130" alt="logo" />
                 </div>
                 <div class="flex flex-col items-center text-neutral-500">
                     <h2 class="text-base" >Auteurs</h2>
