@@ -4,7 +4,7 @@
 
       <div class="slider_brand" style="position:relative; z-index: -1;">
             <div class="flex w-100 mx-auto  items-center justify-center " 
-                style="background-image: url('img/librarie.png'); height: 90vh;  background-position: center;
+                style="background-image: url('img/librarie.jpg'); height: 90vh;  background-position: center;
                 background-size: cover;">
                 <div class="flex items-center justify-center flex-col " style="width: 80vw; margin: 0 auto;" >
                     <h1 class="text-white text-7xl">Telecharger des Miliers de livre</h1>
@@ -31,7 +31,7 @@
                 </div>
             
                 <div class="grid pb-10 w-100 mx-auto  items-center justify-items-center " 
-                style="background-image: url('img/association.png'); height: 90vh; background-position: center;
+                style="background-image: url('img/association.jpg'); height: 90vh; background-position: center;
                 background-size: cover;">
                         <div class="flex items-center justify-center flex-col" style="width: 80vw; margin: 0 auto;">
                             <h1 class="text-white text-7xl">Rejoindre notre association</h1>
