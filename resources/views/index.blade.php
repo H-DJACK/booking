@@ -257,48 +257,49 @@
         <div class="grid grid-cols-7 gap-4">
             <div class="justify-center grid items-start shadown-lg  bg-gray-100 rounded" >
                 <a href="#">
-                <img src="img/1.jpg" class="mx-auto w-full h-60 rounded-t-lg " width="100" height="200" alt="kffl">
-                <h4 class="font-bold text-center w-30 text-xl mt-2">Le meutre </h4>
-                <div class="p-2">
-                    <p class="text-slate-500 text-sm">Paul Eluad</p>
-                    <p class="text-slate-500 text-sm">Romman</p>
-                    <p class="text-slate-500 text-sm">2005</p></a>
-                </div>
-            </div>
-    
-           <div class="justify-center grid  bg-gray-100 items-start" >
-                <a href="#">
-                <img src="img/8.jpg" class="mx-auto w-full h-60 rounded-t-lg" width="150" height="300" alt="kffl">
-                <h4 class="font-bold text-center w-30 text-xl mt-2">Le meutre</h4>
-                <div class="p-2">
-                    <p class="text-slate-500 text-sm">Paul Eluad</p>
-                    <p class="text-slate-500 text-sm">Romman</p>
-                    <p class="text-slate-500 text-sm">2005</p>
-                </div>
+                    <img src="img/1.jpg" class="mx-auto w-full h-60 rounded-t-lg " width="100" height="200" alt="kffl">
+                    <h4 class="font-bold text-center w-30 text-xl mt-2">Le meutre </h4>
+                    <div class="p-2">
+                        <p class="text-slate-500 text-sm">Paul Eluad</p>
+                        <p class="text-slate-500 text-sm">Romman</p>
+                        <p class="text-slate-500 text-sm">2005</p>
+                    </div>
                 </a>
             </div>
     
            <div class="justify-center grid  bg-gray-100 items-start" >
                 <a href="#">
-                <img src="img/9.jpg" class="mx-auto w-full h-60 rounded-t-lg" width="150" height="300" alt="kffl">
-                <h4 class="font-bold text-center w-30 text-xl mt-2">Le meutre</h4>
-                <div class="p-2">
-                    <p class="text-slate-500 text-sm">Paul Eluad</p>
-                    <p class="text-slate-500 text-sm">Romman</p>
-                    <p class="text-slate-500 text-sm">2005</p>
-                </div>
+                    <img src="img/8.jpg" class="mx-auto w-full h-60 rounded-t-lg" width="150" height="300" alt="kffl">
+                    <h4 class="font-bold text-center w-30 text-xl mt-2">Le meutre</h4>
+                    <div class="p-2">
+                        <p class="text-slate-500 text-sm">Paul Eluad</p>
+                        <p class="text-slate-500 text-sm">Romman</p>
+                        <p class="text-slate-500 text-sm">2005</p>
+                    </div>
+                </a>
+            </div>
+    
+           <div class="justify-center grid  bg-gray-100 items-start" >
+                <a href="#">
+                    <img src="img/9.jpg" class="mx-auto w-full h-60 rounded-t-lg" width="150" height="300" alt="kffl">
+                    <h4 class="font-bold text-center w-30 text-xl mt-2">Le meutre</h4>
+                    <div class="p-2">
+                        <p class="text-slate-500 text-sm">Paul Eluad</p>
+                        <p class="text-slate-500 text-sm">Romman</p>
+                        <p class="text-slate-500 text-sm">2005</p>
+                    </div>
                 </a>
             </div>
     
             <div class="justify-center grid  bg-gray-100 items-start" >
                 <a href="#">
-                <img src="img/4.jpg" class="mx-auto w-full h-60 rounded-t-lg" width="150" height="300" alt="kffl">
-                <h4 class="font-bold text-center w-30 text-xl mt-2">Le meutre</h4>
-                <div class="p-2">
-                    <p class="text-slate-500 text-sm">Paul Eluad</p>
-                    <p class="text-slate-500 text-sm">Romman</p>
-                    <p class="text-slate-500 text-sm">2005</p>
-                </div>
+                    <img src="img/4.jpg" class="mx-auto w-full h-60 rounded-t-lg" width="150" height="300" alt="kffl">
+                    <h4 class="font-bold text-center w-30 text-xl mt-2">Le meutre</h4>
+                    <div class="p-2">
+                        <p class="text-slate-500 text-sm">Paul Eluad</p>
+                        <p class="text-slate-500 text-sm">Romman</p>
+                        <p class="text-slate-500 text-sm">2005</p>
+                    </div>
                 </a>
             </div>
         </div>
