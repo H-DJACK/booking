@@ -113,7 +113,7 @@
                     </svg>
                 </div>
 
-                <div id="backdrop" style="position: absolute; width: 90%; height: 100vh; top: 0%; background:rgba(0, 0, 0, 0.932)">
+                <div id="backdrop" class="hidden" style="position: absolute; width: 90%; height: 100vh; top: 0%; background:rgba(0, 0, 0, 0.932)">
                     <div id="closeBackdrop" class="text-white text-7xl" style="display: flex; justify-content:flex-end; padding: 10px;" >
                         X
                     </div>
