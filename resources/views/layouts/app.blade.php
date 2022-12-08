@@ -73,16 +73,79 @@
     
     
     </style>
+
+    <style>
+        @media (min-width: 1337px) {
+            .nav-items {
+                display: flex;
+            }
+            .login-btn {
+                display: flex;
+            }
+            .hamburger{
+                display: none ;
+            }
+        }
+
+        @media (max-width: 1337px) {
+            .hamburger{
+                display: flex;
+            }
+        }
+
+
+        
+    </style>
 </head>
 <body>
     <div id="app">
+
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="grid grid-cols-4 w-full bg">
-                <div class="flex mx-auto items-center">
+            <div class="flex justify-between items-center mx-auto w-full bg" style="width: 80%">
+                <div class="flex items-center">
                     <img src="img/logo.png" width="80" height="130" alt="logo" />
                     <small class="text-xl">Fénix sarl</small>
                 </div>
-                <div class="flex col-span-2 items-center justify-items-center">
+
+                <div id="openBackdrop" class="hamburger cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </div>
+
+                <div id="backdrop" style="position: absolute; width: 90%; height: 100vh; top: 0%; background:rgba(0, 0, 0, 0.932)">
+                    <div id="closeBackdrop" class="text-white text-7xl" style="display: flex; justify-content:flex-end; padding: 10px;" >
+                        X
+                    </div>
+                    <ul class="flex items-center justify-center text-slate-500 flex-col" style="margin-top:  100px; ">
+                        <li class="@if (Route::has('/')) border-b-2 border-yellow-500 @else hover:text-slate-600 @endif ">
+                            <a href="/" style="font-size: 20px;">Accueil</a>
+                        </li>
+                        <li class="@if (Route::has('/authors')) border-b-2 border-yellow-500 @else hover:text-slate-600 @endif">
+                            <a href="/authors" style="font-size: 20px;">Auteurs</a>
+                        </li>
+                        <li class="@if (Route::has('/')) border-b-2 border-yellow-500 @else hover:text-slate-600 @endif">
+                            <a href="/publications" style="font-size: 20px;">Publications</a>
+                        </li>
+                        <li class="hover:text-slate-600">
+                            <a href="/paraitre" style="font-size: 20px;">A paraitre</a>
+                        </li>
+                        <li class="@if (Route::has('/events')) border-b-2 border-yellow-500 @else hover:text-slate-600 @endif">
+                            <a href="/events" style="font-size: 20px;">Evenement</a>
+                        </li>
+                        <li class="@if (Route::has('/books')) border-b-2 border-yellow-500 @else hover:text-slate-600 @endif">
+                            <a href="/books" style="font-size: 20px;">Librairie</a>
+                        </li>
+                        <li class="hover:text-slate-600">
+                            <a href="#" style="font-size: 20px;">Aliv</a> 
+                        </li>
+
+                        
+                    </ul>
+                </div>
+                
+                <div class="hidden nav-items col-span-2 items-center justify-items-center">
+                   
                     <ul class="flex mx-auto text-slate-500 flex-row space-x-10">
                         <li class="@if (Route::has('/')) border-b-2 border-yellow-500 @else hover:text-slate-600 @endif ">
                             <a href="/">Accueil</a>
@@ -106,9 +169,10 @@
                             <a href="#">Aliv</a> 
                         </li>
                     </ul>
+                    
                 </div>
 
-                <div class="relative flex grid  justify-items-end items-center  justify-center dark:bg-gray-900 sm:items-center pr-4 sm:pt-0">
+                <div class="relative hidden flex login-btn justify-items-end items-center  justify-center dark:bg-gray-900 sm:items-center pr-4 sm:pt-0">
                     @if (Route::has('login'))
                         <div class="hidden fixed  sm:block">
                             @auth
@@ -263,44 +327,46 @@
         </main>
 
         <footer>
-            <div class="grid grid-cols-4 bg-neutral-900 padding-about py-10">
-                <div class="flex flex-col items-center text-neutral-500">
-                    <h2 class="text-base">About us</h2>
-                    <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Ab impedit error id quidem nostrum tempora aliquid dignissimos commodi velit? 
-                        Repellendus non at unde ratione magni quasi sed pariatur dignissimos porro.</p>
-                    <img src="img/logo.png" width="80" height="130" alt="logo" />
-                </div>
-                <div class="flex flex-col items-center text-neutral-500">
-                    <h2 class="text-base" >Auteurs</h2>
-                    <ul class="text-sm">
-                        <li>Eveline Mpondi Ngolle</li>
-                        <li>Eveline Mpondi Ngolle</li>
-                        <li>Eveline Mpondi Ngolle</li>
-                        <li>Eveline Mpondi Ngolle</li>
-                        <li>Eveline Mpondi Ngolle</li>
-                    </ul>
-                </div>
-                <div class="flex flex-col items-center text-neutral-500">
-                    <h2 class="text-base" >Librairie</h2>
-                    <ul class="text-sm">
-                        <li>Art</li>
-                        <li>Science</li>
-                        <li>Mathematic</li>
-                        <li>Romman</li>
-                        <li>Medecin</li>
-                    </ul>
-                </div>
-                <div class="flex flex-col items-center text-neutral-500">
-                    <h2 class="text-base" >Nos Contacts</h2>
-                    <ul class="text-sm">
-                        <li class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Ad repellendus ut autem sunt nihil maiores aliquid sed commodi  
-                        </li>
-                        <li class="mb-4" >Tel: +237 670 70 40 31 / 
-                            +237 620 921 174 / +237 697 621 731 / +237 690 417 212 </li>
-                        <li>Email: labred@gmail.com</li>
-                    </ul>
+            <div class="bg-neutral-900 py-10" style="display: flex;  justify-content: center; margin: 0 auto;">
+                <div style="display: flex; flex-wrap:wrap; width: 90%; justify-content: center;">
+                    <div class="flex flex-col items-center justify-content: center; text-neutral-500"  style="min-width: 25%;  width: 200px;">
+                        <h2 class="text-base">About us</h2>
+                        <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Ab impedit error id quidem nostrum tempora aliquid dignissimos commodi velit? 
+                            Repellendus non at unde ratione magni quasi sed pariatur dignissimos porro.</p>
+                        <img src="img/logo.png" width="80" height="130" alt="logo" />
+                    </div>
+                    <div class="flex flex-col items-center justify-content: center; text-neutral-500" style="min-width: 25%;  width: 200px;">
+                        <h2 class="text-base" >Auteurs</h2>
+                        <ul class="text-sm">
+                            <li>Eveline Mpondi Ngolle</li>
+                            <li>Eveline Mpondi Ngolle</li>
+                            <li>Eveline Mpondi Ngolle</li>
+                            <li>Eveline Mpondi Ngolle</li>
+                            <li>Eveline Mpondi Ngolle</li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col items-center justify-content: center; text-neutral-500" style="min-width: 25%;  width: 200px;">
+                        <h2 class="text-base" >Librairie</h2>
+                        <ul class="text-sm">
+                            <li>Art</li>
+                            <li>Science</li>
+                            <li>Mathematic</li>
+                            <li>Romman</li>
+                            <li>Medecin</li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col items-center justify-content: center; text-neutral-500" style="min-width: 25%;  width: 200px;">
+                        <h2 class="text-base" >Nos Contacts</h2>
+                        <ul class="text-sm">
+                            <li class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Ad repellendus ut autem sunt nihil maiores aliquid sed commodi  
+                            </li>
+                            <li class="mb-4" >Tel: +237 670 70 40 31 / 
+                                +237 620 921 174 / +237 697 621 731 / +237 690 417 212 </li>
+                            <li>Email: labred@gmail.com</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="flex items-center justify-center py-2 text-neutral-500 bg-neutral-800">
@@ -309,7 +375,19 @@
             <script>
                 var elt = document.getElementById('dropmenu');
                 var btn = document.getElementById('btndrop');
+
+                var openBackdrop = document.getElementById('openBackdrop');
+                var closeBackdrop = document.getElementById('closeBackdrop');
+                var backdrop = document.getElementById('backdrop');
+                openBackdrop.addEventListener('click', ()=> {
+                    backdrop.classList.remove('hidden')
+                })
+
+                closeBackdrop.addEventListener('click', ()=> {
+                    backdrop.classList.add('hidden')
+                })
                 
+                if (btn != null){
                   btn.addEventListener('click', ()=> {
                   if(elt.classList.contains('hidden')){
                     elt.classList.remove('hidden')
@@ -318,6 +396,7 @@
                   }
                   
                 })
+            }
             
             
               </script>
